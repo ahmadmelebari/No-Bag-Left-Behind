@@ -1,3 +1,13 @@
+Introduction:
+Unattended luggage in public spaces, such as airports and
+train stations, poses significant security risks. It is a major
+security concern due to its potential to harbor dangerous
+materials, and its presence often leads to evacuations and
+service disruptions. Unattended luggage, if left unchecked,
+can trigger public panic and economic losses for nearby
+businesses.
+
+
 Videos description:
 
 • Video1 DS: This video shows a person arriving with

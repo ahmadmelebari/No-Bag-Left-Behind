@@ -8,6 +8,17 @@ service disruptions. Unattended luggage, if left unchecked,
 can trigger public panic and economic losses for nearby
 businesses.
 
+Description of the Code Files
+main.py:
+How it Runs: This script is run via the command line, where the user specifies the video file, YOLO model, device (CPU or GPU), confidence threshold, and proximity threshold. It processes the video frame by frame, detecting people and luggage, and flags unattended luggage based on proximity logic. The video processing can be stopped with the "q" key.
+
+interface.py:
+How it Runs: This script provides a GUI using Tkinter, allowing users to select a video file and configure settings (model path, device, detection confidence, and threshold). It runs main.py in the background and processes videos in separate threads for convenience.
+
+General Functionality
+main.py detects people and luggage in a video using YOLOv8, determining if any luggage is abandoned based on proximity to people.
+
+interface.py provides a user-friendly interface for selecting videos and running the detection process without using the command line.
 
 Videos description:
 

@@ -1,5 +1,11 @@
 --------------------------------------------------------------------------------------------------------------
-If you want to train your own model and need a dataset copy the code below and paste it on code cell then run it.
+If you want to train your own model and need a dataset you can download it manually by the link below.
+
+https://www.mediafire.com/file/8vkf2kbx7mah8kf/Luggage_Person_DS.v6i.yolov8.zip/file
+
+--------------------------------------------------------------------------------------------------------------
+
+Or you copy the code below and paste it on code cell then run it (if you use Jupyter Notebook).
 
 !pip install roboflow
 
@@ -8,12 +14,6 @@ rf = Roboflow(api_key="on0WvaQUwniFYytqiIPZ")
 project = rf.workspace("ahmad-btxn8").project("luggage_person-ds")
 version = project.version(6)
 dataset = version.download("yolov8")
-
---------------------------------------------------------------------------------------------------------------
-
-You can download dataset manually.
-
-https://www.mediafire.com/file/8vkf2kbx7mah8kf/Luggage_Person_DS.v6i.yolov8.zip/file
 
 --------------------------------------------------------------------------------------------------------------
                 

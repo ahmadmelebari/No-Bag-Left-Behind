@@ -18,7 +18,7 @@ interface.py:
 
 How it Runs: Open and run interface.py in Visual Studio. The Tkinter-based GUI will launch, allowing you to select a video file and configure the model, device, confidence, and proximity threshold. Upon clicking "Run," the GUI will execute main.py in the background, processing the video.
 
-General Functionality
+General Functionality:
 
 main.py: detects people and luggage in a video using YOLOv8, determining if any luggage is abandoned based on proximity to people.
 

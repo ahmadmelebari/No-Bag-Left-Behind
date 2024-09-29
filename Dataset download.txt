@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------------------------------------
-If you want to train your own model and need a dataset you can download it manually by the link below.
+If you want to train your own model and you need a dataset you can download it manually by the link below.
 
 https://www.mediafire.com/file/8vkf2kbx7mah8kf/Luggage_Person_DS.v6i.yolov8.zip/file
 
